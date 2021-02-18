@@ -1,6 +1,6 @@
 
 ## Atlas Provider - Main ##
-###########################
+###################
 
 # Define Terraform provider
 terraform {
