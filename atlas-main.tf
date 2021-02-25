@@ -53,7 +53,7 @@ resource "mongodbatlas_network_container" "test" {
   project_id       = "<YOUR-PROJECT-ID>"
   atlas_cidr_block = ["10.8.0.0/24"]
   provider_name    = "GCP"
-  region           = "EASTERN_US"
+  region           = "us-central1"
 }
 
 # Create a MongoDB Atlas Cluster
