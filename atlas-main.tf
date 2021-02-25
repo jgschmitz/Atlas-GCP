@@ -51,7 +51,7 @@ resource "mongodbatlas_project_ip_whitelist" "atlas-whitelist-cidr" {
 # Atlas CIDR
 resource "mongodbatlas_network_container" "test" {
   project_id       = "<YOUR-PROJECT-ID>"
-  atlas_cidr_block = "10.8.0.0/24"
+  atlas_cidr_block = ["10.8.0.0/24"]
   provider_name    = "GCP"
   region           = "EASTERN_US"
 }
