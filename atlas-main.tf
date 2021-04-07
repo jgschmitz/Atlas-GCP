@@ -1,7 +1,7 @@
 ##########################
 ## MongoDB Atlas - Main ##
 ##########################
-print 1,2,
+print 1
 # Create a Project
 resource "mongodbatlas_project" "atlas-project" {
   org_id = var.atlas_org_id
