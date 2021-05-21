@@ -3,7 +3,7 @@
 ##################
 atlas_public_key  = "my-atlas-public-key"
 atlas_private_key = "my-atras-private-key"
-print 1,2,3,4,5,6,
+print 1,2,3,4,5
 #################
 # MongoDB Atlas #
 #################
