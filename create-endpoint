@@ -1,4 +1,4 @@
-
+Run these commands from the GCP console to create endpoint in GCP
 
 gcloud compute addresses create atlas1 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.1
       gcloud compute addresses create atlas2 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.2
