@@ -1,0 +1,284 @@
+
+
+gcloud compute addresses create atlas1 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.1
+      gcloud compute addresses create atlas2 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.2
+      gcloud compute addresses create atlas3 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.3
+      gcloud compute addresses create atlas4 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.4
+      gcloud compute addresses create atlas5 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.5
+      gcloud compute addresses create atlas6 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.6
+      gcloud compute addresses create atlas7 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.7
+      gcloud compute addresses create atlas8 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.8
+      gcloud compute addresses create atlas9 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.9
+      gcloud compute addresses create atlas10 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.10
+      gcloud compute addresses create atlas11 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.11
+      gcloud compute addresses create atlas12 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.12
+      gcloud compute addresses create atlas13 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.13
+      gcloud compute addresses create atlas14 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.14
+      gcloud compute addresses create atlas15 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.15
+      gcloud compute addresses create atlas16 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.16
+      gcloud compute addresses create atlas17 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.17
+      gcloud compute addresses create atlas18 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.18
+      gcloud compute addresses create atlas19 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.19
+      gcloud compute addresses create atlas20 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.20
+      gcloud compute addresses create atlas21 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.21
+      gcloud compute addresses create atlas22 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.22
+      gcloud compute addresses create atlas23 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.23
+      gcloud compute addresses create atlas24 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.24
+      gcloud compute addresses create atlas25 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.25
+      gcloud compute addresses create atlas26 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.26
+      gcloud compute addresses create atlas27 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.27
+      gcloud compute addresses create atlas28 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.28
+      gcloud compute addresses create atlas29 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.29
+      gcloud compute addresses create atlas30 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.30
+      gcloud compute addresses create atlas31 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.31
+      gcloud compute addresses create atlas32 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.32
+      gcloud compute addresses create atlas33 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.33
+      gcloud compute addresses create atlas34 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.34
+      gcloud compute addresses create atlas35 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.35
+      gcloud compute addresses create atlas36 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.36
+      gcloud compute addresses create atlas37 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.37
+      gcloud compute addresses create atlas38 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.38
+      gcloud compute addresses create atlas39 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.39
+      gcloud compute addresses create atlas40 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.40
+      gcloud compute addresses create atlas41 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.41
+      gcloud compute addresses create atlas42 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.42
+      gcloud compute addresses create atlas43 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.43
+      gcloud compute addresses create atlas44 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.44
+      gcloud compute addresses create atlas45 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.45
+      gcloud compute addresses create atlas46 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.46
+      gcloud compute addresses create atlas47 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.47
+      gcloud compute addresses create atlas48 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.48
+      gcloud compute addresses create atlas49 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.49
+      gcloud compute addresses create atlas50 --region us-central1 --subnet mdb-test-subnet-1 --addresses 10.0.0.50
+
+gcloud compute forwarding-rules create attachment1 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-1 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip1 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment2 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-2 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip2 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment3 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-3 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip3 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment4 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-4 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip4 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment5 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-5 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip5 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment6 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-6 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip6 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment7 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-7 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip7 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment8 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-8 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip8 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment9 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-9 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip9 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment10 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-10 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip10 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment11 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-11 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip11 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment12 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-12 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip12 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment13 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-13 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip13 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment14 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-14 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip14 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment15 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-15 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip15 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment16 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-16 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip16 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment17 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-17 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip17 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment18 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-18 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip18 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment19 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-19 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip19 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment20 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-20 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip20 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment21 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-21 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip21 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment22 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-22 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip22 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment23 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-23 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip23 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment24 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-24 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip24 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment25 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-25 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip25 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment26 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-26 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip26 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment27 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-27 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip27 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment28 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-28 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip28 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment29 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-29 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip29 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment30 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-30 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip30 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment31 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-31 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip31 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment32 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-32 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip32 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment33 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-33 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip33 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment34 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-34 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip34 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment35 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-35 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip35 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment36 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-36 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip36 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment37 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-37 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip37 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment38 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-38 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip38 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment39 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-39 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip39 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment40 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-40 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip40 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment41 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-41 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip41 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment42 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-42 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip42 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment43 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-43 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip43 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment44 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-44 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip44 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment45 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-45 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip45 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment46 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-46 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip46 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment47 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-47 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip47 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment48 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-48 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip48 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment49 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-49 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip49 --region us-central1 --target-service-attachment-region us-central1
+gcloud compute forwarding-rules create attachment50 --target-service-attachment=projects/p-ngpa6znqunf5rnnlreqygacp/regions/us-central1/serviceAttachments/sa-us-central1-6164549e8c26ef1fdb6e33ad-50 --network mdb-test-vpc --subnet mdb-test-subnet-1 --address atlasip50 --region us-central1 --target-service-attachment-region us-central1
+
+curl --user  "fcacjrzv:660bbd07-88f9-473e-90d8-bb68250522c6" --digest \
+    --header "Accept: application/json" \
+    --header "Content-Type: application/json" \
+    --request POST "https://cloud.mongodb.com/api/atlas/v1.0/groups/6164549e8c26ef1fdb6e33ad/privateEndpoint/GCP/endpointService/616713603c4ca311db53749a/endpoint?pretty=true" \
+    --data '
+      {
+        "endpointGroupName" : "google-endpoint-group",
+        "gcpProjectId" : "p-ngpa6znqunf5rnnlreqygacp",
+        "endpoints" : [
+              {
+                   "ipAddress" : "10.0.1.0",
+                   "endpointName" : "attachment0"
+              },
+              {
+                   "ipAddress" : "10.0.1.1",
+                   "endpointName" : "attachment1"
+              },
+              {
+                   "ipAddress" : "10.0.1.2",
+                   "endpointName" : "attachment2"
+              },
+              {
+                   "ipAddress" : "10.0.1.3",
+                   "endpointName" : "attachment3"
+              },
+              {
+                   "ipAddress" : "10.0.1.4",
+                   "endpointName" : "attachment4"
+              },
+              {
+                   "ipAddress" : "10.0.1.5",
+                   "endpointName" : "attachment5"
+              },
+              {
+                   "ipAddress" : "10.0.1.6",
+                   "endpointName" : "attachment6"
+              },
+              {
+                   "ipAddress" : "10.0.1.7",
+                   "endpointName" : "attachment7"
+              },
+              {
+                   "ipAddress" : "10.0.1.8",
+                   "endpointName" : "attachment8"
+              },
+              {
+                   "ipAddress" : "10.0.1.9",
+                   "endpointName" : "attachment9"
+              },
+              {
+                   "ipAddress" : "10.0.1.10",
+                   "endpointName" : "attachment10"
+              },
+              {
+                   "ipAddress" : "10.0.1.11",
+                   "endpointName" : "attachment11"
+              },
+              {
+                   "ipAddress" : "10.0.1.12",
+                   "endpointName" : "attachment12"
+              },
+              {
+                   "ipAddress" : "10.0.1.13",
+                   "endpointName" : "attachment13"
+              },
+              {
+                   "ipAddress" : "10.0.1.14",
+                   "endpointName" : "attachment14"
+              },
+              {
+                   "ipAddress" : "10.0.1.15",
+                   "endpointName" : "attachment15"
+              },
+              {
+                   "ipAddress" : "10.0.1.16",
+                   "endpointName" : "attachment16"
+              },
+              {
+                   "ipAddress" : "10.0.1.17",
+                   "endpointName" : "attachment17"
+              },
+              {
+                   "ipAddress" : "10.0.1.18",
+                   "endpointName" : "attachment18"
+              },
+              {
+                   "ipAddress" : "10.0.1.19",
+                   "endpointName" : "attachment19"
+              },
+              {
+                   "ipAddress" : "10.0.1.20",
+                   "endpointName" : "attachment20"
+              },
+              {
+                   "ipAddress" : "10.0.1.21",
+                   "endpointName" : "attachment21"
+              },
+              {
+                   "ipAddress" : "10.0.1.22",
+                   "endpointName" : "attachment22"
+              },
+              {
+                   "ipAddress" : "10.0.1.23",
+                   "endpointName" : "attachment23"
+              },
+              {
+                   "ipAddress" : "10.0.1.24",
+                   "endpointName" : "attachment24"
+              },
+              {
+                   "ipAddress" : "10.0.1.25",
+                   "endpointName" : "attachment25"
+              },
+              {
+                   "ipAddress" : "10.0.1.26",
+                   "endpointName" : "attachment26"
+              },
+              {
+                   "ipAddress" : "10.0.1.27",
+                   "endpointName" : "attachment27"
+              },
+              {
+                   "ipAddress" : "10.0.1.28",
+                   "endpointName" : "attachment28"
+              },
+              {
+                   "ipAddress" : "10.0.1.29",
+                   "endpointName" : "attachment29"
+              },
+              {
+                   "ipAddress" : "10.0.1.30",
+                   "endpointName" : "attachment30"
+              },
+              {
+                   "ipAddress" : "10.0.1.31",
+                   "endpointName" : "attachment31"
+              },
+              {
+                   "ipAddress" : "10.0.1.32",
+                   "endpointName" : "attachment32"
+              },
+              {
+                   "ipAddress" : "10.0.1.33",
+                   "endpointName" : "attachment33"
+              },
+              {
+                   "ipAddress" : "10.0.1.34",
+                   "endpointName" : "attachment34"
+              },
+              {
+                   "ipAddress" : "10.0.1.35",
+                   "endpointName" : "attachment35"
+              },
+              {
+                   "ipAddress" : "10.0.1.36",
+                   "endpointName" : "attachment36"
+              },
+              {
+                   "ipAddress" : "10.0.1.37",
+                   "endpointName" : "attachment37"
+              },
+              {
+                   "ipAddress" : "10.0.1.38",
+                   "endpointName" : "attachment38"
+              },
+              {
+                   "ipAddress" : "10.0.1.39",
+                   "endpointName" : "attachment39"
+              },
+              {
+                   "ipAddress" : "10.0.1.40",
+                   "endpointName" : "attachment40"
+              },
+              {
+                   "ipAddress" : "10.0.1.41",
+                   "endpointName" : "attachment41"
+              },
+              {
+                   "ipAddress" : "10.0.1.42",
+                   "endpointName" : "attachment42"
