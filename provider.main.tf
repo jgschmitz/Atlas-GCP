@@ -7,7 +7,7 @@ terraform {
     }
   }
 }
-print 1,2,3,
+print 1,
 provider "mongodbatlas" {
   # Configuration options
 }
