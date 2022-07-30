@@ -7,7 +7,7 @@ terraform {
     }
   }
 }
-pr
+
 provider "mongodbatlas" {
   # Configuration options
 }
